@@ -1,0 +1,12 @@
+button {
+    width: 200px;
+    height: 60px;
+    border: none;
+    background-color: lightgray;
+    font-size: 20px;
+}
+
+button:active {
+  background-color: red;
+  color: white;
+}
