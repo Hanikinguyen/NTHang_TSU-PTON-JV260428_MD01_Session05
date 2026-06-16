@@ -1,0 +1,51 @@
+.fade-in {
+    width: 150px;
+    height: 100px;
+    background: #c0c0c8;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.fade-in:hover {
+    opacity: 0.5;
+    background-color: grey;
+}
+
+.change-color {
+    width: 150px;
+    height: 100px;
+    background: #484848;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.change-color:hover {
+    background-color: rgb(15, 61, 146);
+}
+
+.grow {
+    width: 150px;
+    height: 100px;
+    background: #484848;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.grow:hover {
+    transform: scale(1.2);
+}
